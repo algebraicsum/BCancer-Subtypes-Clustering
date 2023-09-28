@@ -12,7 +12,7 @@ image_folder = r"D:\Ambis Kuliah\Semester 7\NAIST Internship\Breast Cancer Proje
 output_folder = r"D:\Ambis Kuliah\Semester 7\NAIST Internship\Breast Cancer Project\Program\ORB ROI\train"
 
 image_files = glob.glob(os.path.join(image_folder, '*.png'))
-# toling di adjust untuk path nya
+
 test_crop = r'A_1001_1.LEFT_CC.png'
 
 tst_crop = cv.imread(test_crop, cv.IMREAD_GRAYSCALE)
